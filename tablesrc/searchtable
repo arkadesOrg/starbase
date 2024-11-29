@@ -6,7 +6,7 @@
 #
 #   copyright 1991, 1993, 1995, 1999 John B. Roll jr.
 #   
-PATH=.:/bin:/usr/bin;	export PATH
+PATH=@bindir@:/bin:/usr/bin;	export PATH
 
 
     Table=$1

@@ -1,6 +1,7 @@
 
 /* missing.c */
 
+#include "config.h"
 #include "nstd.h"
 
 

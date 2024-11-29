@@ -1,0 +1,4 @@
+xlist.lo: ../../utillib/xlist.c /usr/include/stdc-predef.h \
+ ../../utillib/xlist.h
+/usr/include/stdc-predef.h:
+../../utillib/xlist.h:

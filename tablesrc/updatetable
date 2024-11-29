@@ -5,7 +5,7 @@
 #
 #   copyright 2007 John B. Roll jr.
 #   
-PATH=.:/bin:/usr/bin;	export PATH
+PATH=@bindir@:/bin:/usr/bin;	export PATH
 
 if [ $# = 0 ] ; then
     cat 1>&2 <<- EOF

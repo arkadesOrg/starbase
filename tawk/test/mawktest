@@ -12,7 +12,7 @@ dat=mawktest.dat
 
 trap 'echo mawk_test failed ; rm -f temp$$ ; exit 1'  0
 
-PATH=.:$PATH
+PATH=@bindir@:$PATH
 
 # find out which mawk we're testing
 mawk -W version

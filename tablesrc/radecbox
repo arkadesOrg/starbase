@@ -6,7 +6,7 @@
 #
 #   copyright 1991, 1993, 1995, 1999 John B. Roll jr.
 #
-PATH=.:/bin:/usr/bin;	export PATH
+PATH=@bindir@:/bin:/usr/bin;	export PATH
 
  if [ $# -lt 4 ] ; then
 	echo "usage: radecbox file ra dec width [rcol dcol search debug]"	1>&2

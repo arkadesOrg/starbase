@@ -27,7 +27,7 @@
 # description     clean           tires           send tax   
 # action          appointment                     <2003-04-31
 # 
-PATH=.:/bin:/usr/bin;	export PATH
+PATH=@bindir@:/bin:/usr/bin;	export PATH
 
  while [ $# -ge 1 ] ; do
   case $1 in 

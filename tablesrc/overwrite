@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-PATH=.:/bin:/usr/bin;	export PATH
+PATH=@bindir@:/bin:/usr/bin;	export PATH
 
   if [ $# = 0 ] ; then
 	echo "usage: overwrite [-] file"

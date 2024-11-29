@@ -7,7 +7,7 @@
 #   copyright 2002 John B. Roll jr.
 #
 #   
-PATH=.:/bin:/usr/bin;	export PATH
+PATH=@bindir@:/bin:/usr/bin;	export PATH
 
 TABLELIB=$TABLELIB;  export TABLELIB
 TABLEFUN="";  export TABLEFUN

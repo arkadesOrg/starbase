@@ -6,7 +6,7 @@
 #
 #   copyright 2007 John B. Roll jr.
 #
-PATH=.:/bin:/usr/bin
+PATH=@bindir@:/bin:/usr/bin
 export PATH
 
 IMHBASE="/tmp/imhbase.$$"

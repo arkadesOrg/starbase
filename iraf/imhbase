@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-PATH=.:/data/oir/unixiraf/bin:/bin:/usr/bin
+PATH=@bindir@:/data/oir/unixiraf/bin:/bin:/usr/bin
 
  IMHBASE="/tmp/imhbase.$$"
 

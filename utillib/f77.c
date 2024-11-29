@@ -131,7 +131,7 @@ static int      parsline(buffer, nbuf, column, ncol)
     return j + 1;
 }
 
-/* Fake the normal unix command line acces for any interested parties
+/* Fake the normal unix command line access for any interested parties
 
    NAME
 	getarg, iargc - get the kth command line argument
@@ -165,7 +165,7 @@ void            getarg(k, arg)
     SAOstrc2f(argv[*k], arg->dsc$a_pointer, arg->dsc$w_length);
 }
 
-int             iargc()
+int             _gfortran_iargc()
 {
     int             argc;
     char          **argv;
@@ -178,8 +178,8 @@ int             iargc()
 
 #else
 
-int  iargc_();
-void getarg_();
+int  _gfortran_iargc();
+void _gfortran_getarg_i4();
 
 char          **SAOGetF77argv(argc)
     int            *argc;
@@ -192,11 +192,11 @@ char          **SAOGetF77argv(argc)
     }
     Malloc(SAOF77argv, sizeof(char *) * MAX_ARGC);
 
-    *argc = SAOF77argc = iargc_() + 1;
+    *argc = SAOF77argc = _gfortran_iargc() + 1;
 
     for (i = 0; i < SAOF77argc; i++) {
 	Malloc(SAOF77argv[i], MAX_LINE);
-	getarg_(&i, SAOF77argv[i], MAX_LINE);
+	_gfortran_getarg_i4(&i, SAOF77argv[i], MAX_LINE);
 	SAOstrf2c(MAX_LINE, SAOF77argv[i], SAOF77argv[i]);
 	SAOF77argv[i] = (char *) ReAlloc(SAOF77argv[i]
 	,strlen(SAOF77argv[i]) + 1); }

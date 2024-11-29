@@ -3,6 +3,8 @@
 /* copyright 1991, 1993, 1995, 1999 John B. Roll jr.
  */
 
+#include <config.h>
+
 #include <fnmatch.h>
 #ifdef FNM_EXTMATCH
 #define tmatch(string, template) (!fnmatch(template, string, FNM_EXTMATCH))

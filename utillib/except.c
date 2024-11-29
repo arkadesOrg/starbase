@@ -50,6 +50,7 @@ char           *errmsg()		    /* return last message	 */
 
 #endif
 
+#include "config.h"
 
 #ifdef __STDC__
 #include <stdarg.h>

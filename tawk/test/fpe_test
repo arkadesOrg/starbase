@@ -14,7 +14,7 @@
 # recognize NAN printed as ? for hpux
 #
 
-PATH=.:$PATH
+PATH=@bindir@:$PATH
 
 test1='BEGIN{ print 4/0 }'
 

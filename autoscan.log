@@ -1,0 +1,48 @@
+autoscan: warning: missing AC_CHECK_HEADERS([libintl.h]) wanted by: 
+	build/utillib/getdate.c:500
+autoscan: warning: missing AC_CHECK_HEADERS([stdint.h]) wanted by: 
+	build/utillib/getdate.c:393
+autoscan: warning: missing AC_CHECK_TYPES([ptrdiff_t]) wanted by: 
+	build/utillib/getdate.c:458
+autoscan: warning: missing AC_PROG_AR wanted by: 
+	ltmain.sh:4029
+	ltmain.sh:5193
+	ltmain.sh:5196
+	build/Makefile:218
+	build/Makefile:293
+	build/gnu/Makefile:204
+	build/gnu/Makefile:279
+	build/tablelib/Makefile:233
+	build/tablelib/Makefile:308
+	build/utillib/Makefile:246
+	build/utillib/Makefile:321
+	build/Makefile:218
+	build/gnu/Makefile:204
+	build/tablelib/Makefile:233
+	build/utillib/Makefile:246
+autoscan: warning: missing AC_PROG_CPP wanted by: 
+	ltmain.sh:3632
+autoscan: warning: missing AC_PROG_CXX wanted by: 
+	ltmain.sh:2436
+	ltmain.sh:2910
+	ltmain.sh:2913
+	ltmain.sh:2918
+	ltmain.sh:2918
+	ltmain.sh:2928
+	ltmain.sh:2932
+	ltmain.sh:2935
+	ltmain.sh:2935
+	ltmain.sh:4016
+	ltmain.sh:8967
+	ltmain.sh:8979
+	ltmain.sh:8981
+	ltmain.sh:9214
+	build/gnu/Makefile:158
+	build/gnu/Makefile:164
+	build/gnu/Makefile:167
+	build/tablelib/Makefile:187
+	build/tablelib/Makefile:193
+	build/tablelib/Makefile:196
+	build/utillib/Makefile:188
+	build/utillib/Makefile:194
+	build/utillib/Makefile:197
